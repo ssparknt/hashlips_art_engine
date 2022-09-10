@@ -5,9 +5,10 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "circles";
+const description = "";
+const baseUri =
+  "http://ipfs.io/ipfs/Qmd92EeXWDgVbQ14G3WK6eHrq47hFgBirXWVSzEXxdjPnF";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -25,7 +26,7 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     growEditionSizeTo: 11,
-    layersOrder: [{ name: "Bg" }, { name: "obj" }],
+    layersOrder: [{ name: "background" }, { name: "circle" }],
   },
 ];
 

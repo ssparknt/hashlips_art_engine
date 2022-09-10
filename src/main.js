@@ -133,7 +133,6 @@ const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
     name: `${namePrefix} #${_edition}`,
     image: `${baseUri}/${_edition}.png`,
-
     edition: _edition,
     attributes: attributesList,
   };
